@@ -78,9 +78,6 @@ client.on('message', message => {
    }
 });
 
-// Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NDg4MzM2OTY3OTc3OTI2NjU2.DqxXBw.SEBbqrI9_q-W6grsanNHWmMP63U');
-
 // Create an event listener for messages
 client.on('message', message => {
   // If the message is "ping"
@@ -157,7 +154,7 @@ client.on("message", (msg) => {
      return msg.channel.send('Multifunkcjonalny bot, w ktorym mozna zrobic... praktycznie wszystko. Juz majac 11 serwerow mial 50 komend (niestety, to nie to samo co ZabojczyBot.)')
      }
      //tak samo z innymi a potem
-     default: { //je¿eli nie ma argumentów lub nieznany
+     default: { //jeÂ¿eli nie ma argumentÃ³w lub nieznany
        return msg.channel.send('Uzytkowanie: zb!cotojest <fraza do wyszukania> (nie uwzgledniaj nawiasow trojkatnych.) Prawie wszystkie frazy moga nie dzialac, tworca pracuje nad ich wyjasnieniami.');
      }
      }
@@ -197,7 +194,7 @@ client.on("message", (msg) => {
      return msg.channel.send('6 warszawskich przeciwnikow (oj, trudne trudne sie wylosowalo...)')
      }
      //tak samo z innymi a potem
-     default: { //je¿eli nie ma argumentów lub nieznany
+     default: { //jeÂ¿eli nie ma argumentÃ³w lub nieznany
        return msg.channel.send('Uzytkowanie: zb!losulosu <zakres (aktualny: 1-6)> (nie uwzgledniaj nawiasow trojkatnych.) Przyklad: zb!losulosu 2');
      }
      }
@@ -318,7 +315,7 @@ client.on("message", (msg) => {
      return msg.channel.send('~~majster na dzwigu au auuu zart xdd~~ Lubie komputery.')
      }
      //tak samo z innymi a potem
-     default: { //je¿eli nie ma argumentów lub nieznany
+     default: { //jeÂ¿eli nie ma argumentÃ³w lub nieznany
        return msg.channel.send('Uzytkowanie: zb!zapytaj <pytanie>. Pamietaj, nie uwzgledniaj nawiasow trojkatnych. Przyklad: `zb!zapytaj Czy lubisz komputery?`.');
      }
      }
@@ -368,7 +365,7 @@ client.on("message", (msg) => {
        return msg.channel.send('Staty hostera bota mozesz znalezc tu: https://osu.ppy.sh/users/13132757')
      }
      //tak samo z innymi a potem
-     default: { //je¿eli nie ma argumentów lub nieznany
+     default: { //jeÂ¿eli nie ma argumentÃ³w lub nieznany
        return msg.channel.send('Uzytkowanie: zb!osu <uzytkownik> (nie uwzgledniaj nawiasow trojkatnych. Mozesz wpisac tylko jedna wartosc.) Przyklad: zb!osu owner. Jezeli chcesz, zeby bot wyswietlal twoje staty, podaj swoj nick na osu i link w formacie `osu.ppy.sh/users/12345678`.');
      }
      }
@@ -409,7 +406,7 @@ client.on("message", (msg) => {
      return msg.channel.send('~~majster na dzwigu au auuu zart xdd~~ Lubie komputery.')
      }
      //tak samo z innymi a potem
-     default: { //je¿eli nie ma argumentów lub nieznany
+     default: { //jeÂ¿eli nie ma argumentÃ³w lub nieznany
        return msg.channel.send('Uzytkowanie: zb!zapytaj <pytanie>. Pamietaj, nie uwzgledniaj nawiasow trojkatnych. Przyklad: `zb!zapytaj Czy lubisz komputery?`.');
      }
      }
@@ -424,7 +421,7 @@ client.on("message", (msg) => {
 client.on('message', message => {
   if (message.content.startsWith('zb!say')) {
     let doCiecia = message.content
-    let pociete = doCiecia.split('zb!say ') //gdybyœ zmienial nazwê komendy, tu te¿ musisz zmieniæ. spacja na koñcu jest wymagana!
+    let pociete = doCiecia.split('zb!say ') //gdybyÂœ zmienial nazwÃª komendy, tu teÂ¿ musisz zmieniÃ¦. spacja na koÃ±cu jest wymagana!
     let wyslij = pociete[1]
 
     if (message.content.length > 1) {
@@ -571,7 +568,7 @@ client.on('message', message => {
   }
 });
 
-//modu³ kuli 8
+//moduÂ³ kuli 8
 client.on('message', message => {
      if (message.content.startsWith('zb!kula8')) {
          const odpowiedz = 1 + Math.floor(Math.random() * 8);
